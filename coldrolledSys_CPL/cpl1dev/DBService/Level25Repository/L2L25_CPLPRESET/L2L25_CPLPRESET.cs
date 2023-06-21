@@ -1,0 +1,89 @@
+﻿using DBService.Base;
+
+namespace DBService.Level25Repository.L2L25_CPL1PRESET
+{
+    public class L2L25_CPLPRESET : BaseRepositoryModel
+	{
+		public string Message_Length { get; set; }
+		public string Message_Id { get; set; }
+		public string Date { get; set; }
+		public string Time { get; set; }
+		public string CoilID { get; set; }
+		public string Steel_Grade { get; set; }
+		public string Thickness { get; set; }
+		public string Width { get; set; }
+		public string Entry_Yield_Stress { get; set; }
+		public string Density { get; set; }
+		public string CoilLength { get; set; }
+		public string CoilWeight { get; set; }
+		public string ProcessCode { get; set; }
+		public string InnerDiam { get; set; }
+		public string Diameter { get; set; }
+		public string SleeveCodeEntry { get; set; }
+		public string SleeveDmEntry { get; set; }
+		public string PaperWinder_Flag { get; set; }
+		public string SleeveCodeExit { get; set; }
+		public string SleeveDmExit { get; set; }
+		public string PaperTypeExit { get; set; }
+		public string PaperCodeExit { get; set; }
+		public string Flatener_Depth_1 { get; set; }
+		public string Flatener_Depth_2 { get; set; }
+		public string Uncoiler_Tension { get; set; }
+		public string Uncoiler_Tension_Max { get; set; }
+		public string Uncoiler_Tension_Min { get; set; }
+		public string head_leader_strip_Length { get; set; }
+		public string head_leader_strip_thickness { get; set; }
+		public string head_leader_strip_width { get; set; }
+		public string head_leader_strip_steel_grade { get; set; }
+		public string tail_leader_strip_Length { get; set; }
+		public string tail_leader_strip_thickness { get; set; }
+		public string tail_leader_strip_width { get; set; }
+		public string tail_leader_strip_steel_grade { get; set; }
+		public string Side_Trimmer_Gap { get; set; }
+		public string Side_Trimmer_Lap { get; set; }
+		public string Side_Trimmer_Width { get; set; }
+		public string tension_unit_depth { get; set; }
+		public string Recoiler_Tension { get; set; }
+		public string Recoiler_Tension_Max { get; set; }
+		public string Recoiler_Tension_Min { get; set; }
+		public string PaperUnwinder_Flag { get; set; }
+		public string CoilSplit { get; set; }
+		public string Split_Weight_1 { get; set; }
+		public string Split_Weight_2 { get; set; }
+		public string Split_Weight_3 { get; set; }
+		public string Split_Weight_4 { get; set; }
+		public string Split_Weight_5 { get; set; }
+		public string Split_Weight_6 { get; set; }
+		public string PrrPosId { get; set; }
+		public string Defect_1_code { get; set; }
+		public string Defect_1_start_position { get; set; }
+		public string Defect_1_end_position { get; set; }
+		public string Defect_2_code { get; set; }
+		public string Defect_2_start_position { get; set; }
+		public string Defect_2_end_position { get; set; }
+		public string Defect_3_code { get; set; }
+		public string Defect_3_start_position { get; set; }
+		public string Defect_3_end_position { get; set; }
+		public string Defect_4_code { get; set; }
+		public string Defect_4_start_position { get; set; }
+		public string Defect_4_end_position { get; set; }
+		public string Defect_5_code { get; set; }
+		public string Defect_5_start_position { get; set; }
+		public string Defect_5_end_position { get; set; }
+		public string Defect_6_code { get; set; }
+		public string Defect_6_start_position { get; set; }
+		public string Defect_6_end_position { get; set; }
+		public string Defect_7_code { get; set; }
+		public string Defect_7_start_position { get; set; }
+		public string Defect_7_end_position { get; set; }
+		public string Defect_8_code { get; set; }
+		public string Defect_8_start_position { get; set; }
+		public string Defect_8_end_position { get; set; }
+		public string Defect_9_code { get; set; }
+		public string Defect_9_start_position { get; set; }
+		public string Defect_9_end_position { get; set; }
+		public string Defect_10_code { get; set; }
+		public string Defect_10_start_position { get; set; }
+		public string Defect_10_end_position { get; set; }
+	}
+}
